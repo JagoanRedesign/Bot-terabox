@@ -1,0 +1,22 @@
+{
+  "name": "Duckbot",
+  "description": "Powerfull telegram bot",
+  "keywords": [
+    "bot",
+    "telegram bot",
+    "typescript telegram bot"
+  ],
+  "website": "https://butthx.vercel.app/",
+  "repository": "https://github.com/JagoanRedesign/Bot-terabox",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "TOKEN BOT FROM BOT FATHER",
+      "required": true
+    },
+   
+    "WEBHOOK_URL":{
+      "description":"URL FROM YOUR APPS TO SET WEBHOOK. CHANGE <your app name> WITH YOUR HEROKU APP NAME.",
+      "value":"https://<your app name>.herokuapp.com"
+    }
+  }
+}
